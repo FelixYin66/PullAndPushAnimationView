@@ -16,6 +16,8 @@
 		86608F1C2481110B00D97C40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86608F1B2481110B00D97C40 /* main.m */; };
 		86608F26248111B500D97C40 /* PullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86608F25248111B500D97C40 /* PullView.m */; };
 		86608F29248111D800D97C40 /* PushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86608F28248111D800D97C40 /* PushView.m */; };
+		86608F2D248112E300D97C40 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86608F2C248112E300D97C40 /* UIView+Animation.m */; };
+		86608F302481134C00D97C40 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86608F2F2481134C00D97C40 /* CALayer+Animation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		86608F25248111B500D97C40 /* PullView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullView.m; sourceTree = "<group>"; };
 		86608F27248111D800D97C40 /* PushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushView.h; sourceTree = "<group>"; };
 		86608F28248111D800D97C40 /* PushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushView.m; sourceTree = "<group>"; };
+		86608F2B248112E300D97C40 /* UIView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		86608F2C248112E300D97C40 /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		86608F2E2481134C00D97C40 /* CALayer+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
+		86608F2F2481134C00D97C40 /* CALayer+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		86608F082481110900D97C40 /* PullAndPushAnimationView */ = {
 			isa = PBXGroup;
 			children = (
+				86608F2A248112B900D97C40 /* Category */,
 				86608F232481119E00D97C40 /* PushView */,
 				86608F222481119200D97C40 /* PullView */,
 				86608F092481110900D97C40 /* AppDelegate.h */,
@@ -100,6 +107,17 @@
 				86608F28248111D800D97C40 /* PushView.m */,
 			);
 			path = PushView;
+			sourceTree = "<group>";
+		};
+		86608F2A248112B900D97C40 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				86608F2B248112E300D97C40 /* UIView+Animation.h */,
+				86608F2C248112E300D97C40 /* UIView+Animation.m */,
+				86608F2E2481134C00D97C40 /* CALayer+Animation.h */,
+				86608F2F2481134C00D97C40 /* CALayer+Animation.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86608F29248111D800D97C40 /* PushView.m in Sources */,
+				86608F2D248112E300D97C40 /* UIView+Animation.m in Sources */,
+				86608F302481134C00D97C40 /* CALayer+Animation.m in Sources */,
 				86608F112481110900D97C40 /* ViewController.m in Sources */,
 				86608F26248111B500D97C40 /* PullView.m in Sources */,
 				86608F0B2481110900D97C40 /* AppDelegate.m in Sources */,
